@@ -34,12 +34,25 @@
         <div class="social vk">
             <a href="https://vk.com/bakkyyy" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
         </div>
-        <div class="social button">
-            <a><i class="fa fa-phone fa-2x"></i><span>+7 (902) 611-74-27</span></a>
+        <div class="social button" onclick="showphone()">
+            <a><span class="txt">Показать телефон</span></a>
         </div>
     </div>
-    <img src="photo/arrow.png" class="arrow"></img>
-    <div class="showphone">Показать телефон</div>
 </body>
+
+<script>
+    let count = 0;
+
+    function showphone() {
+        let tx = document.querySelector('.txt');
+        if (count == 0) {
+            tx.textContent = '+7 (902) 611-74-27';
+            count = 1;
+        } else {
+            tx.textContent = 'Показать телефон';
+            count = 0;
+        }
+    }
+</script>
 
 </html>
