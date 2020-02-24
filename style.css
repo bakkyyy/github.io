@@ -91,6 +91,10 @@ html {
     color: black;
 }
 
+.button a {
+    width: 40%;
+}
+
 .instagram a:hover {
     background: rgb(93, 202, 175);
     color: #fff;
@@ -99,10 +103,6 @@ html {
 .vk a:hover {
     background: rgb(93, 202, 175);
     color: #fff;
-}
-
-.button a {
-    width: 40%;
 }
 
 .button span {
