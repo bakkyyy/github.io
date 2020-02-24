@@ -101,6 +101,10 @@ html {
     color: #fff;
 }
 
+.button a {
+    width: 40%;
+}
+
 .button span {
     display: block;
     color: black;
