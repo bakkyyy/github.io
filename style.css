@@ -91,6 +91,9 @@ html {
     color: black;
 }
 
+.button a {
+    width: 40%;
+}
 
 .instagram a:hover {
     background: rgb(93, 202, 175);
@@ -103,15 +106,6 @@ html {
 }
 
 .button span {
-    display: none;
-    overflow: hidden;
-}
-
-.button:hover i {
-    display: none;
-}
-
-.button:hover span {
     display: block;
     color: black;
     font-family: 'Amatic SC', cursive;
@@ -120,26 +114,12 @@ html {
     height: 100%;
 }
 
+
 .button a:hover {
     background: rgb(93, 202, 175);
-    width: 40%;
-    line-height: 2em;
-    transition: 1s;
+    cursor: pointer;
 }
 
-.showphone {
-    position: absolute;
-    bottom: 4%;
-    right: 16%;
-    color: white;
-    font-size: 130%;
-    font-family: 'Amatic SC', cursive;
-}
-
-.arrow {
-    position: absolute;
-    right: 19%;
-    bottom: 7%;
-    height: 50px;
-    width: 50px;
+.button:hover span {
+    color: #fff;
 }
