@@ -91,10 +91,6 @@ html {
     color: black;
 }
 
-.button a {
-    width: 40%;
-}
-
 .instagram a:hover {
     background: rgb(93, 202, 175);
     color: #fff;
